@@ -307,5 +307,3 @@ crm_final.to_sql(name="crm_final_dogan_ozen",
                  if_exists='replace',
                  index=True,  # index var o da aşağıdaki
                  index_label="CustomerID")
-## hatayı çözemediğim için veritabanına gönderme işlemini yapmamdım
-##mysql-connector-python-rf  bu kütüphaneyi yüklerken bi hata veriyor
